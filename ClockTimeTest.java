@@ -46,5 +46,13 @@ public class ClockTimeTest
         ClockTime clockTim1 = new ClockTime();
         assertEquals("11:00:00", clockTim1.toString());
     }
+
+    @Test
+    public void testClock2()
+    {
+        ClockTime clockTim1 = new ClockTime();
+        assertEquals("11:00:00", clockTim1.toString());
+    }
 }
+
 
